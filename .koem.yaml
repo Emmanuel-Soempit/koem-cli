@@ -1,0 +1,5 @@
+lables:
+    name: test_label
+    ports:
+        - "105"
+        - "105"
