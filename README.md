@@ -30,8 +30,8 @@ Define named labels with a minimum and maximum port range. Configurations are pe
 
 ```bash
 # Add a label
-koem-cli label add backend 8000 9000
-koem-cli label add database 5432 5499
+koem-cli label add backend -p 8000,9000
+koem-cli label add database -p 5432,5499
 
 # List all labels with port usage
 koem-cli get labels
@@ -104,7 +104,7 @@ Reserved ports for "myapp" under "backend":
 ## All Commands
 
 ```
-koem-cli label add <name> <min> <max>        Add a new label
+koem-cli label add <name> -p <min>,<max>     Add a new label
 
 koem-cli get labels                          List all labels
 koem-cli get labels -l <label>               Filter by label name
