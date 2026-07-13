@@ -21,7 +21,7 @@ THE SOFTWARE.
 */
 package main
 
-import "github.com/Emmanuel-Soempit/koem/cmd"
+import "github.com/Emmanuel-Soempit/koem-cli/cmd"
 
 func main() {
 	cmd.Execute()

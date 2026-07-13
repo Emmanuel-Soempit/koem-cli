@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Emmanuel-Soempit/koem/impls"
+	"github.com/Emmanuel-Soempit/koem-cli/impls"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )

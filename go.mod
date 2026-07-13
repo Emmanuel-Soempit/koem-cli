@@ -1,4 +1,4 @@
-module github.com/Emmanuel-Soempit/koem
+module github.com/Emmanuel-Soempit/koem-cli
 
 go 1.26.4
 

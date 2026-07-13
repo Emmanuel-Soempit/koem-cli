@@ -6,7 +6,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/Emmanuel-Soempit/koem/impls"
+	"github.com/Emmanuel-Soempit/koem-cli/impls"
 	"github.com/spf13/cobra"
 )
 

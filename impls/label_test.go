@@ -3,7 +3,7 @@ package impls_test
 import (
 	"testing"
 
-	"github.com/Emmanuel-Soempit/koem/impls"
+	"github.com/Emmanuel-Soempit/koem-cli/impls"
 	"github.com/spf13/viper"
 )
 
