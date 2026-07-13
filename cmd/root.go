@@ -30,8 +30,9 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "koem-cli",
-	Short: "A tool for mapping, labelling and reserving ports",
+	Use:     "koem-cli",
+	Version: "0.1.0",
+	Short:   "A tool for mapping, labelling and reserving ports",
 	Long: `koem - means sacred shrine in Nigerian Cultural Myth. 
 	This tool acts like a shrine keeper, a local directory where developers come to,
 	to make sensible port categorizations.`,
@@ -52,9 +53,6 @@ func Execute() {
 func init() {
 	cobra.OnInitialize(initConfig)
 
-	// Cobra also supports local flags, which will only run
-	// when this action is called directly.
-	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
 
 func initConfig() {
